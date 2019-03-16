@@ -1,0 +1,21 @@
+Kacper Zieliński
+Nr indeksu: 236698
+
+1. Załączone pliki
+ - lexer.y	- plik FLEX'a, służący do analizy leksykalnej (przekazuje ciąg tokenów do Bison'a lub zwraca niektóre błędy przy niepoprawnej składni)
+ - parser.y	- plik BISON'a, służacy do analizy gramatycznej, zawiera funkcje generujące i drukujące kod maszyny wirtualnej, hashmapę przechowywanych symboli, obsługę poleceń matematycznych, logicznych oraz błędów
+ - Makefile	- plik służacy do kompilacji kompilatora za pomocą polecenia 'make'
+ - wyniki_testow.jpg - zawiera skan wyników przeprowadzonych testów
+
+2. Kompliacja programu
+Należy użyć polecenia 'make', które stworzy nam właściwy plik 'kompilator'. (standard c++11 minimum)
+
+3. Przykładowe użycie programu
+./kompilator program0.imp outputFile
+outputFile zawiera kod na maszynę rejestrową.
+
+4. Środowisko
+ - Linux Ubuntu 16.04 x64
+ - bison (GNU Bison) 3.0.4
+ - flex 2.6.0
+ - g++ (Ubuntu 5.4.0-6ubuntu1~16.04.10) 5.4.0 20160609
