@@ -1,6 +1,6 @@
 /**
 	Kacper Zielinski, 
-	236698, 
+	236***, 
 	Wydzial Podstawowych Problemow Techniki, 
 	Politechnika Wroclawska
 	
