@@ -1,5 +1,5 @@
 Kacper Zieliński
-Nr indeksu: 236698
+Nr indeksu: 236***
 
 1. Załączone pliki
  - lexer.y	- plik FLEX'a, służący do analizy leksykalnej (przekazuje ciąg tokenów do Bison'a lub zwraca niektóre błędy przy niepoprawnej składni)
